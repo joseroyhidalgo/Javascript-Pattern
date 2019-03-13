@@ -12,14 +12,14 @@
 // task4.save();
 
 /* calling Class */
-// var Task = require('./class.js');
-// var task = new Task('ssss');
-// task.complete();
-// //var sss = Task;
+var Task = require('./class.js');
+var task = new Task('ssss');
+task.complete();
+//var sss = Task;
 
 
 /* calling get return */
-var Repo = require('./taskRepository.js');
+//var Repo = require('./taskRepository.js');
 //var s1 = Repo().get();
-var s2 = Repo().save();
-console.log(s2.isSaved);
+//var s2 = Repo().save();
+//console.log(s2.isSaved);
